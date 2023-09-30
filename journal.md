@@ -27,6 +27,10 @@ Mon dernier script ressemble beaucoup au précédent. Le problème ici était qu
 
 ### [`month.sh`](/semaine_0/scripts/month.sh)
 
-Avant de faire les exercices de cette semaine, j'ai voulu reprendre une partie que je n'avais pas faite la semaine précédente (je n'avais pas vu qu'il fallait trier les fichiers par mois et je m'étais arrêtée à l'année).
+Cette semaine, j'ai voulu reprendre une partie que je n'avais pas faite la semaine précédente (je n'avais pas vu qu'il fallait trier les fichiers par mois et je m'étais arrêtée à l'année).
 Comme les mois suivent un ordre croissant assez simple, j'ai voulu prendre ma revanche sur la semaine précédente et m'essayer à écrire un script capable de faire une boucle et de créer automatiquement les dossier pour déplacer les fichiers à l'intérieur. La seule chose que je ne me suis pas aventurée à automatiser a été le choix de l'année, que j'ai tout de même placée dans une variable pour n'avoir qu'une seule modification à faire quand je relance mon script ailleurs.
 J'ai eu des difficultés concernant la syntaxe de bash : j'avais une erreur au niveau de ma variable `YEAR`, et je ne savais pas que je devais mettre des curly brackets pour différencier la variable du reste. Aussi, j'ai eu du mal à trouver l'opérateur de comparaison entre des nombres. Mais étonnamment, une fois tous ces problèmes résolus, mon script a fonctionné sans autre souci alors je suis très contente d'avoir persévéré.
+
+### clone / commit / tag
+
+J'avais déjà cloné mon dépôt la semaine dernière, donc je n'ai pas eu à faire ce travail cette semaine. Je n'ai pas rencontré de problème particulier. Je n'ai en revanche jamais fait de tags auparavant, alors j'ai pu découvrir cette fonctionnalité.
