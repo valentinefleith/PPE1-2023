@@ -37,3 +37,5 @@ J'avais déjà cloné mon dépôt la semaine dernière, donc je n'ai pas eu à f
 
 
 j'ecris nptq il va falloir retirer cette ligne.
+
+## Exercices semaine 2
