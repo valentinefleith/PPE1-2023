@@ -34,8 +34,3 @@ J'ai eu des difficultés concernant la syntaxe de bash : j'avais une erreur au n
 ### clone / commit / tag
 
 J'avais déjà cloné mon dépôt la semaine dernière, donc je n'ai pas eu à faire ce travail cette semaine. Je n'ai pas rencontré de problème particulier. Je n'ai en revanche jamais fait de tags auparavant, alors j'ai pu découvrir cette fonctionnalité.
-
-
-j'ecris nptq il va falloir retirer cette ligne.
-
-## Exercices semaine 2
