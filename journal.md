@@ -34,3 +34,7 @@ J'ai eu des difficultés concernant la syntaxe de bash : j'avais une erreur au n
 ### clone / commit / tag
 
 J'avais déjà cloné mon dépôt la semaine dernière, donc je n'ai pas eu à faire ce travail cette semaine. Je n'ai pas rencontré de problème particulier. Je n'ai en revanche jamais fait de tags auparavant, alors j'ai pu découvrir cette fonctionnalité.
+
+## Exercices semaine 2
+
+Realisation de l'exercice 1 : j'ai rencontré un problème de merge conflict après l'utilisation de la commande git revert, au moment de revenir 2 commits auparavant. J'ai alors demandé de l'aide et j'ai finalement dû éditer le journal manuellement afin de choisir la version à laquelle je voulais revenir.
