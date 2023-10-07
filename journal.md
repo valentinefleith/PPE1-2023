@@ -39,6 +39,10 @@ J'avais déjà cloné mon dépôt la semaine dernière, donc je n'ai pas eu à f
 
 ### Exercice 1
 
-Realisation de l'exercice 1 : j'ai rencontré un problème de merge conflict après l'utilisation de la commande git revert, au moment de revenir 2 commits auparavant. J'ai alors demandé de l'aide et j'ai finalement dû éditer le journal manuellement afin de choisir la version à laquelle je voulais revenir.
+Realisation de l'exercice 1 : j'ai rencontré un problème de merge conflict après l'utilisation de la commande `git revert`, au moment de revenir 2 commits auparavant. J'ai alors demandé de l'aide et j'ai finalement dû éditer le journal manuellement afin de choisir la version à laquelle je voulais revenir.
 Je me suis rendue compte à la correction que j'avais mal compris l'exercice car j'ai push mes changements alors j'ai utilisé `git revert` au lieu de `git reset`.
 De plus, je n'avais pas compris qu'il fallait faire les changements de la deuxième ligne via le site Github et j'avais tout fait en local, donc je n'au pas eu le message d'erreur attendu.
+
+### Exercice 2 
+
+J'ai essayé un `git reset` sans vérifier à l'avance quels commits j'avais fait depuis mon tag, ce qui m'a embêtée. Ne sachant pas comment reset un git reset, j'ai recloné mon dépôt pour repartir de zéro.
