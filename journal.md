@@ -45,4 +45,7 @@ De plus, je n'avais pas compris qu'il fallait faire les changements de la deuxi�
 
 ### Exercice 2 
 
-J'ai essayé un `git reset` sans vérifier à l'avance quels commits j'avais fait depuis mon tag, ce qui m'a embêtée. Ne sachant pas comment reset un git reset, j'ai recloné mon dépôt pour repartir de zéro.
+a) J'ai essayé un `git reset` sans vérifier à l'avance quels commits j'avais fait depuis mon tag, ce qui m'a embêtée. Ne sachant pas comment reset un git reset, j'ai recloné mon dépôt pour repartir de zéro.
+J'ai donc refait la manipulation avec la commande :`git reset git-seance3-init` et cela a bien fonctionné.
+
+b) Voici les bons changements dans le bon journal de bord.
