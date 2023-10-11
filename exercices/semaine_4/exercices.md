@@ -18,7 +18,7 @@ Resultat de la commande : 7561
 `grep "Location" ann/*/*/*.ann | wc -l`
 Resultat de la commande : 8720
 
-- **Sauvegarder ces resultats dans un seul fichier : **
+- **Sauvegarder ces resultats dans un seul fichier :**
 
 `cat ann/2016/*/*.ann | wc -l > results.txt`
 
