@@ -27,3 +27,6 @@ Resultat de la commande : 8720
 `cat ann/2018/*/*.ann | wc -l >> results.txt`
 
 `grep "Location" ann/*/*/*.ann | wc -l >> results.txt`
+
+- **Etablir le classement des lieux les plus cites** :
+`grep "Location" ann/*/*/*.ann | cut -f 3 | sort | uniq -c | sort -nr`
