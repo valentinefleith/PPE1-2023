@@ -49,3 +49,4 @@ a) J'ai essayé un `git reset` sans vérifier à l'avance quels commits j'avais 
 J'ai donc refait la manipulation avec la commande :`git reset git-seance3-init` et cela a bien fonctionné.
 
 b) Voici les bons changements dans le bon journal de bord.
+
