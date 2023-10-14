@@ -48,9 +48,15 @@ script : [`location_par_annee.sh`](location_par_annee.sh)
 
 - **Ecrire un script qui compte les entites pour une annee et un type d'entite donnes en argument du programme**
 
-script : [`compte_entites_args.sh`](/compte_entites_args.sh)
+script : [`compte_entites_args.sh`](compte_entites_args.sh)
 
 - **Ecrire un second script qui lance le script precedent 3 fois, une fois pour chaque annee en prenant le type d'entite en argument** :
 
-script : [`compte_entites2.sh`](/compte_entites2.sh)
+script : [`compte_entites2.sh`](compte_entites2.sh)
+
+- **Ecrire un script pour etablir le classement des lieux les plus cites** :
+
+Arguments : annee, mois, nombre de lieux a afficher. Accepter les * pour l'annee et le mois.
+
+script : [`exercice2.sh`](exercice2.sh)
 

@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 if [ -z $2 ]
-then
+	then
 		echo "Usage : ./compte_entites_args.sh ENTITE ANNEE"
 		exit
 fi

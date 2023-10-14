@@ -25,7 +25,7 @@ Mon dernier script ressemble beaucoup au précédent. Le problème ici était qu
 
 ## Exercices semaine 2
 
-### [`month.sh`](/semaine_1/scripts/month.sh)
+### [`month.sh`](/exercices/semaine_1/scripts/month.sh)
 
 Cette semaine, j'ai voulu reprendre une partie que je n'avais pas faite la semaine précédente (je n'avais pas vu qu'il fallait trier les fichiers par mois et je m'étais arrêtée à l'année).
 Comme les mois suivent un ordre croissant assez simple, j'ai voulu prendre ma revanche sur la semaine précédente et m'essayer à écrire un script capable de faire une boucle et de créer automatiquement les dossier pour déplacer les fichiers à l'intérieur. La seule chose que je ne me suis pas aventurée à automatiser a été le choix de l'année, que j'ai tout de même placée dans une variable pour n'avoir qu'une seule modification à faire quand je relance mon script ailleurs.
@@ -52,4 +52,8 @@ b) Voici les bons changements dans le bon journal de bord.
 
 
 ## [Exercices semaine 4](exercices/semaine_4/exercices.md)
+
+Les differents exercices de la semaine sont repertories [ici](/exercices/semaine_4/exercices.md).
+
+Je n'ai pas eu de difficulte majeure pour realiser les exercices de cette semaine. La partie la plus difficile a ete le premier exercice de la partie sur les arguments, car je n'etais pas sure qu'il faille appeler le premier script dans le second, mais finalement en le testant, tout a fonctionne comme je le voulais. 
 
