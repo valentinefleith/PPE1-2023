@@ -44,7 +44,7 @@ Resultat de la commande : 8720
 
 - **Ecrire un script qui donne le nombre de location par annee**
 
-script : [`location_par_annee.sh`](/location_par_annee.sh)
+script : [`location_par_annee.sh`](location_par_annee.sh)
 
 - **Ecrire un script qui compte les entites pour une annee et un type d'entite donnes en argument du programme**
 
