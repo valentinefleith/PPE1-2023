@@ -57,3 +57,13 @@ Les differents exercices de la semaine sont repertories [ici](/exercices/semaine
 
 Je n'ai pas eu de difficulte majeure pour realiser les exercices de cette semaine. La partie la plus difficile a ete le premier exercice de la partie sur les arguments, car je n'etais pas sure qu'il faille appeler le premier script dans le second, mais finalement en le testant, tout a fonctionne comme je le voulais. 
 
+
+## [Exercices semaine 5](exercices/semaine_5)
+
+Cette semaine, je n'ai pas pu aller en cours car j'étais malade. J'ai donc rattrapé le cours grâce aux diaporamas et à mes camarades.
+
+Pour les exercices, j'avais déjà essayé de vérifier la validité des mes arguments la semaine précédente, mais je ne connaissais que la condition `-z` pour vérifier si une chaine est vide ou non. J'avais alors bricolé pour pouvoir à peu près vérifier si on m'avait donné des arguments.
+
+Cette semaine j'ai donc pu revenir dessus et avoir une vérification beaucoup plus précise et complète, notamment grâce aux regex.
+
+Pas de problème particulier rencontré lors de l'écriture des scripts.
