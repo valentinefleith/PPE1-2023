@@ -5,11 +5,13 @@ if [ -z $1 ]; then
 	exit
 fi
 
-PATH=$1
+CHEMIN=$1
 COUNT=1
 
 while read -r line;
 do
-	echo -e "${COUNT}\t${line}";
+	HTTP_CODE=$(curl -s -I ${line} | grep "HTTP" | egrep -o "[[:digit:]]{3}");
+	echo -e "${COUNT}\t${HTTP_CODE}\t${line}";
 	((COUNT++));
-done < "$PATH"
+done < "$CHEMIN"
+
