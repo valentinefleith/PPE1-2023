@@ -6,8 +6,10 @@ if [ -z $1 ]; then
 fi
 
 PATH=$1
+COUNT=1
 
 while read -r line;
 do
-	echo "${line}";
+	echo -e "${COUNT}\t${line}";
+	((COUNT++));
 done < "$PATH"
