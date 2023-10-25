@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 if [ -z $1 ]; then
-	echo "Usage : ./compte_entites2.sh ENTITE"
+	echo "Usage : ./miniprojet.sh CHEMIN"
 	exit
 fi
 
