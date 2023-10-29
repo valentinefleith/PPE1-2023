@@ -67,3 +67,18 @@ Pour les exercices, j'avais déjà essayé de vérifier la validité des mes arg
 Cette semaine j'ai donc pu revenir dessus et avoir une vérification beaucoup plus précise et complète, notamment grâce aux regex.
 
 Pas de problème particulier rencontré lors de l'écriture des scripts.
+
+## [Miniprojet](miniprojet)
+
+Cette semaine, pour le mini projet, il y avait 2 exercices à faire : j'ai fait le premier ainsi qu'une partie du deuxième en classe, et j'ai terminé ensuite chez moi.
+J'ai normalement fait différents commits pour voir les différentes étapes du script.
+
+Pour l'exercice 1, je n'ai pas eu de difficultés particulière, tout s'est enchainé qssez vite.
+
+Concernant l'exercice 2 en revanche, j'ai dû débugger énormément de choses dont voici un petit aperçu :
+
+- **problème au niveau de ma condition `IF` :** je voulais initialement tester si ma condition `$IS_CORRECTED` renvoyait tout simplement quelque chose, peu importe quoi. Mais lorsque je mettais simplement `IF [ $IS_CORRECTED ]`, cela ne voulait pas marcher (meme en essayant avec `IF [ $IS_CORRECTED = true ]`). J'ai donc dû tester avec la valeur renvoyée par la commande, ce qui m'embête un peu car elle ne peut pas renvoyer autre chose que rien ou 200. Cela fonctionne mais sémantiquement, ma condition est beaucoup moins claire.
+- **problème au moment de la correction des URL `301` :** je ne me suis rendue compte de ce problème qu'au moment d'afficher l'encodage de la page, car rien ne s'affichait pour les URLS que j'avais corrigés. Pourtant, il semblait que ma variable `$URL`contenait ce qu'il fallait quand je l'affichais. Je n'ai pu résoudre le problème qu'avec un `cat -e` : le caractère non imprimable `\r` s'était glissé à la fin de mes urls sans que je puisse le voir avant, et mon url était donc faux.
+- **autres problèmes :** je suis passée par d'autres problèmes plutôt d'inattention; des caractères oubliés ou ce type de choses, qui m'ont quand même fait dépenser beaucoup de temps mais dont le débuggage était moins compliqué.
+
+En conclusion pour le mini-projet, j'ai beaucoup apprécié écrire ce script et j'aime bien découvrir Shell. La commande curl donne les moyens de faire beaucoup de choses à partir d'un URL, même si la prise en main de toutes les options différentes est un peu difficile. Mais je suis contente d'avoir réussi à écrire quelque chose de fonctionnel et j'ai hâte de voir la correction.
