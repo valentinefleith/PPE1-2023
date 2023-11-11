@@ -82,3 +82,7 @@ Concernant l'exercice 2 en revanche, j'ai dû débugger énormément de choses d
 - **autres problèmes :** je suis passée par d'autres problèmes plutôt d'inattention; des caractères oubliés ou ce type de choses, qui m'ont quand même fait dépenser beaucoup de temps mais dont le débuggage était moins compliqué.
 
 En conclusion pour le mini-projet, j'ai beaucoup apprécié écrire ce script et j'aime bien découvrir Shell. La commande curl donne les moyens de faire beaucoup de choses à partir d'un URL, même si la prise en main de toutes les options différentes est un peu difficile. Mais je suis contente d'avoir réussi à écrire quelque chose de fonctionnel et j'ai hâte de voir la correction.
+
+## [Exercices semaine 7](/exercices/semaine_7)
+
+Je n'ai pas rencontré de problèmes en particulier pour faire les exerices de cette semaine. Pour le troisième, qui a été le plus compliqué à faire, j'ai d'abord tout fait dans le terminal puis j'ai recopié les commandes que j'ai tapées dans le script. J'ai pu découvrir `cat -` pour pouvoir ajouter un bout de texte au debut d'un fichier, ainsi que `sed -i 1d` pour supprimer la premiere ligne d'un fichier.
