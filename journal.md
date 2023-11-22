@@ -86,3 +86,6 @@ En conclusion pour le mini-projet, j'ai beaucoup apprécié écrire ce script et
 ## [Exercices semaine 7](/exercices/semaine_7)
 
 Je n'ai pas rencontré de problèmes en particulier pour faire les exerices de cette semaine. Pour le troisième, qui a été le plus compliqué à faire, j'ai d'abord tout fait dans le terminal puis j'ai recopié les commandes que j'ai tapées dans le script. J'ai pu découvrir `cat -` pour pouvoir ajouter un bout de texte au debut d'un fichier, ainsi que `sed -i 1d` pour supprimer la premiere ligne d'un fichier.
+
+
+https://valentinefleith.github.io/PPE1-2023/
